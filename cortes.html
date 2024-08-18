@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principais Cortes - Salão Beleza dos Brothers</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin: 20px;
+        }
+        .gallery-item {
+            flex: 1 1 calc(50% - 20px);
+            max-width: calc(50% - 20px);
+            box-sizing: border-box;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .gallery-item h3 {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .gallery-item p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cortes.html">Principais Cortes</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>Salão Beleza dos Brothers</h1>
+        <p>Cuidando da sua beleza e da autoestima!</p>
+    </header>
+    <main>
+        <section class="gallery">
+            <div class="gallery-item">
+                <img src="images/ronaldo.jpg" alt="Corte Moderno 1">
+                <h3>Corte Ronaldinho</h3>
+                <p>Corte feito em homenagems ao jogador de futebol</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/calvao.jpg" alt="Corte Clássico 2">
+                <h3>Calvão de cria</h3>
+                <p>Corte realizado somente pelo alto escalão dos crias</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/geo.jpg" alt="Corte Casual 3">
+                <h3>Corte Geometrico</h3>
+                <p>Um corte para aqueles que curtem geometria</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/helicorte.jpg" alt="Corte Elegante 4">
+                <h3>Helicorte</h3>
+                <p>um corte de cabelo para aqueles que curtem helicopteros</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Salão Beleza e Estética. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
